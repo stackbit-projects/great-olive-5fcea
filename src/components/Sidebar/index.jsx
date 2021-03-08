@@ -31,7 +31,7 @@ class Sidebar extends React.Component {
         </Link>
         {isHomePage ? (
           <h1 className="sidebar__author-title">
-            <Link className="sidebar__author-title-link" to="/">
+            <Link className="sidebar__author-title-link" to="Harini Janakirama">
               {author.name}
             </Link>
           </h1>
